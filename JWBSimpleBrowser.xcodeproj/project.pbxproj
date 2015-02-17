@@ -19,6 +19,8 @@
 		5F3A73CF1A8A7E1D007E1A77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3A73B71A8A7E1D007E1A77 /* UIKit.framework */; };
 		5F3A73D71A8A7E1E007E1A77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F3A73D51A8A7E1E007E1A77 /* InfoPlist.strings */; };
 		5F3A73D91A8A7E1E007E1A77 /* JWBSimpleBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A73D81A8A7E1E007E1A77 /* JWBSimpleBrowserTests.m */; };
+		5F3A73E51A8A7E37007E1A77 /* JWBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A73E31A8A7E37007E1A77 /* JWBViewController.m */; };
+		5F3A73E61A8A7E37007E1A77 /* JWBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3A73E41A8A7E37007E1A77 /* JWBViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5F3A73D41A8A7E1E007E1A77 /* JWBSimpleBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWBSimpleBrowserTests-Info.plist"; sourceTree = "<group>"; };
 		5F3A73D61A8A7E1E007E1A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F3A73D81A8A7E1E007E1A77 /* JWBSimpleBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWBSimpleBrowserTests.m; sourceTree = "<group>"; };
+		5F3A73E21A8A7E37007E1A77 /* JWBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWBViewController.h; path = ../JWBViewController.h; sourceTree = "<group>"; };
+		5F3A73E31A8A7E37007E1A77 /* JWBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWBViewController.m; path = ../JWBViewController.m; sourceTree = "<group>"; };
+		5F3A73E41A8A7E37007E1A77 /* JWBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JWBViewController.xib; path = ../JWBViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 		5F3A73B91A8A7E1D007E1A77 /* JWBSimpleBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				5F3A73E21A8A7E37007E1A77 /* JWBViewController.h */,
+				5F3A73E31A8A7E37007E1A77 /* JWBViewController.m */,
+				5F3A73E41A8A7E37007E1A77 /* JWBViewController.xib */,
 				5F3A73C21A8A7E1D007E1A77 /* JWBAppDelegate.h */,
 				5F3A73C31A8A7E1D007E1A77 /* JWBAppDelegate.m */,
 				5F3A73C51A8A7E1D007E1A77 /* Images.xcassets */,
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3A73BE1A8A7E1D007E1A77 /* InfoPlist.strings in Resources */,
+				5F3A73E61A8A7E37007E1A77 /* JWBViewController.xib in Resources */,
 				5F3A73C61A8A7E1D007E1A77 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3A73C41A8A7E1D007E1A77 /* JWBAppDelegate.m in Sources */,
+				5F3A73E51A8A7E37007E1A77 /* JWBViewController.m in Sources */,
 				5F3A73C01A8A7E1D007E1A77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,13 +7,21 @@
 //
 
 #import "JWBAppDelegate.h"
+#import "JWBViewController.h"
 
 @implementation JWBAppDelegate
 
+//"Main" method lol  This is the first thing that happens after C crap happens
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Remove to see error message.  Google result later.
+    JWBViewController *viewController = [[JWBViewController alloc] init];
+    self.window.rootViewController = viewController;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
