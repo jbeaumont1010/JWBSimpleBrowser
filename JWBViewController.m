@@ -72,8 +72,12 @@
         simpleAddr = @"http://www.pitt.edu";
     }
     
+    
     NSURL *url = [NSURL URLWithString:simpleAddr];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    //Extra Credit
+    [_urlContent2 loadRequest:request];
+    
     //Whenever something happens, it's me.
     NSURLConnection *conn = [NSURLConnection connectionWithRequest:request delegate:self];
     

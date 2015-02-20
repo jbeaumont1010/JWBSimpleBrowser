@@ -12,6 +12,8 @@
 
 @property (nonatomic, weak) IBOutlet UITextField *urlField;
 @property (nonatomic, weak) IBOutlet UITextView *urlContent;
+//Extra Credit
+@property (nonatomic, weak) IBOutlet UIWebView *urlContent2;
 @property (nonatomic, weak) IBOutlet UIButton *goButton;
 
 @property (nonatomic, strong) NSMutableString *responseString;
